@@ -257,6 +257,10 @@ padding: 40px;
   line-height: 4rem;
   font-weight: bold;
 }
+.card button a{
+  text-decoration: none;
+  color: #ffffff;
+}
 /* Price Card End*/
 
 /* ABout Director*/
