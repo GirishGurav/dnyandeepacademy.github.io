@@ -185,7 +185,7 @@ h2 {
 
 .image2 img {
   max-width: 100%;
-  height: auto;
+  height: 600px;
   border-radius: 8px;
 }
 
@@ -214,6 +214,41 @@ p {
 }
 
 /* About End */
+
+
+/*Result*/
+.container6 {
+  max-width: 1000px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.image-container6 {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.image-container6 img {
+  max-width: 48%; /* Adjust as needed */
+  height: auto;
+  border: 1px solid #ddd; /* Add border for better visibility */
+  border-radius: 5px;
+}
+@media (max-width: 768px) {
+  .image-container6 {
+      flex-direction: column;
+  }
+
+  .image-container6 img {
+      max-width: 80%; /* Adjust as needed */
+      margin-bottom: 10px;
+      margin-left: 50px;
+  }
+}
+/*Result End*/
+
 
 /* Price Card */
 .container4 {
@@ -524,7 +559,7 @@ input[type="checkbox"]:checked~.label2:before {
 
   .container5 .content .right-side {
     width: 100%;
-    margin-left: 0;
+    margin-left: 50px;
   }
 }
 
